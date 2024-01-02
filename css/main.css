@@ -282,6 +282,7 @@
   -moz-user-select: none;
   user-select: none;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .noUi-target {
@@ -7425,9 +7426,14 @@ ul li a:hover {
 /* Contact Information Style */
 
 .cc-contact-information {
-  width: 100%;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url(../images/tehran1.jpg);
 }
 
 .cc-contact-information .cc-contact {
@@ -7474,6 +7480,8 @@ a.credit {
 }
 * {
   font-family: yekan;
+  text-align: center;
+  align-items: center;
 }
 body {
   font-family: yekan;
@@ -7915,5 +7923,65 @@ footer {
       justify-content: center;
       margin: 0 auto;
     }
+  }
+}
+/* .b-courses button */
+.b-courses {
+  position: relative;
+  width: 150px;
+  height: 65px;
+  border-radius: 18px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+}
+
+.b-courses:hover {
+  background: linear-gradient(
+    45deg,
+    #ff0077,
+    #2d76ff,
+    #3cd421,
+    #e7d219,
+    #ff0077
+  );
+  background-size: 400%;
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+
+.b-courses::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 18px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.b-courses:hover::before {
+  opacity: 1;
+  z-index: -1;
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
   }
 }
