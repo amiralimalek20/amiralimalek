@@ -7519,6 +7519,8 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-wrapper {
@@ -7533,7 +7535,7 @@ footer {
 .footer-top {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   padding: 16px 0px;
   justify-content: space-between;
@@ -7583,7 +7585,7 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
   flex: 2 0 140px;
   width: 100%;
@@ -7631,7 +7633,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   min-width: 180px;
   gap: 8px;
 }
@@ -7654,7 +7656,7 @@ footer {
   gap: 8px;
   padding: 16px 0px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer-bottom > small {
@@ -7750,10 +7752,10 @@ footer {
   .footer-top {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     padding: 16px 0px;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .footer-line {
@@ -7800,7 +7802,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     flex: 2 0 140px;
     width: 100%;
@@ -7848,7 +7850,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     min-width: 180px;
     gap: 8px;
   }
@@ -7871,7 +7873,7 @@ footer {
     gap: 8px;
     padding: 16px 0px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .footer-bottom > small {
