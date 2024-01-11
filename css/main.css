@@ -7924,3 +7924,61 @@ footer {
     }
   }
 }
+.b-msfs {
+  position: relative;
+  width: 180px;
+  height: 60px;
+  border-radius: 18px;
+  background: #111111;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.b-msfs:hover {
+  background: linear-gradient(
+    45deg,
+    #ff0077,
+    #2d76ff,
+    #3cd421,
+    #e7d219,
+    #ff0077
+  );
+  background-size: 400%;
+  z-index: 1;
+  animation: glow 8s linear infinite;
+}
+
+.b-msfs::before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 18px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.b-msfs:hover::before {
+  opacity: 1;
+  z-index: -1;
+}
+
+@keyframes glow {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
