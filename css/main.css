@@ -7941,6 +7941,7 @@ footer {
     flex-direction: column;
     max-width: 1320px;
     padding: 16px;
+    width: 85%;
   }
 
   /*? top section */
