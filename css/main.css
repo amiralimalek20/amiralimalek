@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  scroll-behavior: smooth;
   font-family: yekan;
 }
 @font-face {
@@ -13,9 +12,11 @@
 }
 body {
   font-family: yekan;
+  scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   width: 10px;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar-track {
@@ -31,7 +32,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ab1414;
 }
-
+.li-menu {
+  cursor: pointer;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -44,16 +47,13 @@ nav {
 }
 
 nav.sticky {
-  padding: 3px 0;
+  padding: 0;
   border-radius: 35px;
   height: 57px;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
+  top: 5px;
 }
 .navbar {
   background: #ab1414;
@@ -63,10 +63,10 @@ nav.sticky {
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
-  right: 10px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
 }
 
 .navbar .menu a:hover {
@@ -107,7 +107,7 @@ nav .navbar .menu li {
 }
 
 .navbar .menu a {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
   padding: 6px 0;
   transition: all 0.4s ease;
@@ -184,6 +184,7 @@ nav.sticky .media-icons a {
   border: #6e93f7;
   direction: ltr;
   display: inline-block;
+  cursor: pointer;
 }
 .button-h-cart {
   background-color: #084569;
@@ -467,8 +468,6 @@ nav.sticky .media-icons a {
 .bootstrap-switch-on .bootstrap-switch-handle-off {
   opacity: 0;
 }
-
-/*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
 
 /* Functional styling;
  * These styles are required for noUiSlider to function.
@@ -7494,6 +7493,21 @@ ul li a:hover {
 
 .cc-profile-image a {
   position: relative;
+  top: 90px;
+  left: 500px;
+}
+.matn {
+  top: 80px;
+  position: relative;
+  left: 500px;
+}
+.matn-vasat {
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+}
+.p-title {
+  font-size: 20px;
 }
 
 .cc-profile-image a:before {
@@ -7724,6 +7738,7 @@ footer {
   flex-direction: column;
   max-width: 1320px;
   padding: 16px;
+  width: 80%;
 }
 
 /*? top section */
@@ -7941,7 +7956,6 @@ footer {
     flex-direction: column;
     max-width: 1320px;
     padding: 16px;
-    width: 85%;
   }
 
   /*? top section */
@@ -8282,8 +8296,13 @@ footer {
     width: 100%;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    width: 290px;
+  }
   .home .text-two {
     font-size: 55px;
   }
@@ -8298,6 +8317,75 @@ footer {
   .skills {
     width: 100%;
     height: 1200px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    width: 290px;
+  }
+  .home .text-two {
+    font-size: 55px;
+  }
+  .home .text-three {
+    font-size: 33px;
+  }
+  .skills-details .boxes .per {
+    font-size: 50px;
+    color: #4070f4;
+    width: 100%;
+  }
+  .skills {
+    width: 100%;
+    height: 1200px;
+  }
+}
+@media (max-width: 340px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    bottom: 80px;
+    width: 330px;
+    right: -5px;
+  }
+  .cc-profile-image {
+    display: none;
+  }
+  nav {
+    font-size: 8px;
+    display: flex;
+    right: 8px;
+    width: 330px;
+  }
+  nav.sticky {
+    top: 8px;
+    right: 5px;
+  }
+}
+@media (max-width: 300px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    bottom: 80px;
+    width: 290px;
+    right: -5px;
+  }
+  .cc-profile-image {
+    display: none;
+  }
+  nav {
+    font-size: 8px;
+    display: flex;
+    right: 8px;
+    width: 290px;
+  }
+  nav.sticky {
+    top: 8px;
+    right: 5px;
   }
 }
 @media (max-width: 924px) {
