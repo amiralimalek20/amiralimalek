@@ -8371,8 +8371,7 @@ footer {
   }
   .matn-vasat {
     bottom: 80px;
-    width: 290px;
-    right: -5px;
+    width: 270px;
   }
   .cc-profile-image {
     display: none;
@@ -8380,12 +8379,15 @@ footer {
   nav {
     font-size: 8px;
     display: flex;
-    right: 8px;
-    width: 290px;
+    width: 270px;
+    right: 12px;
   }
   nav.sticky {
     top: 8px;
     right: 5px;
+  }
+  .btn-twitter {
+    display: none;
   }
 }
 @media (max-width: 924px) {
@@ -8393,4 +8395,7 @@ footer {
     font-size: 8px;
     display: flex;
   }
+}
+.btn-twitter {
+  display: inline;
 }
