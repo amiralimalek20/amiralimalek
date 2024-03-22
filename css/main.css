@@ -8366,31 +8366,6 @@ footer {
     right: 5px;
   }
 }
-@media (max-width: 300px) {
-  body {
-    width: 100%;
-  }
-  .matn-vasat {
-    bottom: 80px;
-    width: 270px;
-  }
-  .cc-profile-image {
-    display: none;
-  }
-  nav {
-    font-size: 8px;
-    display: flex;
-    width: 270px;
-    right: 12px;
-  }
-  nav.sticky {
-    top: 8px;
-    right: 5px;
-  }
-  .btn-twitter {
-    display: none;
-  }
-}
 @media (max-width: 924px) {
   nav.sticky {
     font-size: 8px;
