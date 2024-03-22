@@ -8161,6 +8161,12 @@ footer {
   }
 }
 
+@media (max-width: 310px) {
+  .b-msfs {
+    right: 50px;
+  }
+}
+
 .b-msfs:hover {
   background: linear-gradient(
     45deg,
