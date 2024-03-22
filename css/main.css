@@ -8146,7 +8146,6 @@ footer {
   background: #111111;
   color: #ffffff;
   font-size: 18px;
-  letter-spacing: 2px;
   text-transform: uppercase;
   cursor: pointer;
   border: none;
@@ -8154,6 +8153,12 @@ footer {
   justify-content: center;
   display: inline;
   font-family: yekan;
+  right: 585px;
+}
+@media (max-width: 350px) {
+  .b-msfs {
+    right: 50px;
+  }
 }
 
 .b-msfs:hover {
