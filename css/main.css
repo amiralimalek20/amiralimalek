@@ -8155,7 +8155,7 @@ footer {
   font-family: yekan;
   right: 585px;
 }
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .b-msfs {
     right: 50px;
   }
@@ -8354,7 +8354,7 @@ footer {
     height: 1200px;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 360px) {
   body {
     width: 100%;
   }
