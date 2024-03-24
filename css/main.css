@@ -8412,10 +8412,10 @@ footer {
     display: none;
   }
   .m-khadamat {
-    width: 420px;
+    width: 400px;
     height: 280px;
     position: relative;
-    left: 155px;
+    left: 165px;
     display: grid;
   }
 }
@@ -8446,10 +8446,10 @@ footer {
     display: none;
   }
   .m-khadamat {
-    width: 400px;
+    width: 390px;
     height: 280px;
     position: relative;
-    left: 155px;
+    left: 168px;
     display: grid;
   }
 }
@@ -8476,7 +8476,7 @@ footer {
     width: 330px;
     height: 280px;
     position: relative;
-    left: 155px;
+    left: 160px;
     display: grid;
   }
 }
