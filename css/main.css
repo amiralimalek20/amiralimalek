@@ -8248,6 +8248,7 @@ footer {
   nav .navbar {
     width: 90%;
   }
+
   nav .navbar .menu {
     position: fixed;
     left: -100%;
@@ -8364,9 +8365,6 @@ footer {
     width: 380px;
     right: -5px;
   }
-  .cc-profile-image {
-    display: none;
-  }
   nav {
     font-size: 8px;
     display: flex;
@@ -8380,6 +8378,9 @@ footer {
   .b-msfs {
     right: 50px;
   }
+  .cc-profile-image {
+    display: none;
+  }
 }
 @media (max-width: 360px) {
   body {
@@ -8389,9 +8390,6 @@ footer {
     bottom: 80px;
     width: 330px;
     right: -5px;
-  }
-  .cc-profile-image {
-    display: none;
   }
   nav {
     font-size: 8px;
