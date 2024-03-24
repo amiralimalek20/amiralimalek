@@ -8453,6 +8453,38 @@ footer {
     display: grid;
   }
 }
+@media (max-width: 380px) {
+  body {
+    width: 100%;
+  }
+  .matn-vasat {
+    bottom: 80px;
+    width: 360px;
+    right: -5px;
+  }
+  nav {
+    font-size: 8px;
+    display: flex;
+    right: 22px;
+    width: 360px;
+  }
+  nav.sticky {
+    top: 8px;
+    right: 5px;
+  }
+  .b-msfs {
+    right: 80;
+  }
+  .cc-profile-image {
+    display: none;
+  }
+  .m-khadamat {
+    width: 350px;
+    height: 280px;
+    position: relative;
+    display: grid;
+  }
+}
 @media (max-width: 360px) {
   body {
     width: 100%;
